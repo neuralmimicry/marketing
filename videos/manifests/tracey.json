@@ -1,0 +1,55 @@
+{
+  "product": "tracey",
+  "deliverables": [
+    {
+      "kind": "product",
+      "title": "Tracey Product Overview",
+      "prompt_file": "videos/prompts/tracey-product.md",
+      "duration_seconds": 120,
+      "audience": "Security and resilience buyers, SRE leaders, and technical evaluators",
+      "goal": "Explain how Tracey turns noisy telemetry into governed assessment and controlled action.",
+      "cta": "Request a Tracey briefing",
+      "sections": [
+        {"title": "Signal overload", "focus": "Too much telemetry, too little confidence"},
+        {"title": "Shared event model", "focus": "Common event shape and swarm scoring"},
+        {"title": "Governed response", "focus": "Quorum, posture, JSONL evidence, and lifecycle control"},
+        {"title": "Commercial close", "focus": "Why adaptive resilience is reviewable rather than opaque"}
+      ],
+      "must_include": [
+        "shared event model",
+        "multiple agents plus quorum",
+        "governance-aware response",
+        "closed-loop status for Continuum"
+      ],
+      "avoid": [
+        "single-detector security language",
+        "claims of unsupervised autonomous response"
+      ]
+    },
+    {
+      "kind": "training",
+      "title": "Tracey Training Walkthrough",
+      "prompt_file": "videos/prompts/tracey-training.md",
+      "duration_seconds": 480,
+      "audience": "Security operators, platform teams, and internal enablement",
+      "goal": "Walk through signal ingestion, assessment, posture decisions, fleet awareness, and lifecycle controls.",
+      "cta": "Use Tracey as a governed runtime, not just another alert stream",
+      "sections": [
+        {"title": "Ingest and normalise", "focus": "How producers map into Tracey's event fabric"},
+        {"title": "Assess and decide", "focus": "Scoring, quorum, and posture effects"},
+        {"title": "Fleet context", "focus": "Discovery, peer state, and closed-loop snapshots"},
+        {"title": "Lifecycle safety", "focus": "Supervisor, loader, and update safeguards"}
+      ],
+      "must_include": [
+        "assessment sequence",
+        "posture control",
+        "fleet intelligence",
+        "update or lifecycle safeguards"
+      ],
+      "avoid": [
+        "alert fatigue without operational response detail",
+        "undocumented claims about self-healing"
+      ]
+    }
+  ]
+}

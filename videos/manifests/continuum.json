@@ -1,0 +1,55 @@
+{
+  "product": "continuum",
+  "deliverables": [
+    {
+      "kind": "product",
+      "title": "Continuum Product Overview",
+      "prompt_file": "videos/prompts/continuum-product.md",
+      "duration_seconds": 120,
+      "audience": "Infrastructure buyers, platform leaders, and regulated technical evaluators",
+      "goal": "Show how Continuum brings hybrid operations, recruitment, and adaptive control into one sovereign surface.",
+      "cta": "Request a Continuum briefing",
+      "sections": [
+        {"title": "Hybrid operations pressure", "focus": "Multiple estates, inconsistent control, and operational drift"},
+        {"title": "Control plane", "focus": "CLI plus guarded API and connection intelligence"},
+        {"title": "Adaptive loop", "focus": "Tracey-fed plan-ramp-optimize-repeat and placement policy"},
+        {"title": "Commercial close", "focus": "Why sovereignty and reviewability matter"}
+      ],
+      "must_include": [
+        "plan-ramp-optimize-repeat",
+        "guarded API",
+        "recruitment workflow",
+        "operator-selectable placement policy"
+      ],
+      "avoid": [
+        "generic cloud-ops language detached from sovereignty",
+        "claims that hide operator authority"
+      ]
+    },
+    {
+      "kind": "training",
+      "title": "Continuum Training Walkthrough",
+      "prompt_file": "videos/prompts/continuum-training.md",
+      "duration_seconds": 480,
+      "audience": "Operators, SRE teams, and platform implementation staff",
+      "goal": "Show an operator flow through connection setup, loop review, recruitment, and placement decisions.",
+      "cta": "Operate from the control plane, not from scattered scripts",
+      "sections": [
+        {"title": "Connection and context", "focus": "Profiles, endpoints, and safe command posture"},
+        {"title": "Adaptive loop review", "focus": "Reading telemetry, recommendations, and recent actions"},
+        {"title": "Recruitment", "focus": "Adding or preparing a node with explicit metadata"},
+        {"title": "Assurance", "focus": "Visibility, testing discipline, and compliance posture"}
+      ],
+      "must_include": [
+        "connection-profile setup",
+        "loop interpretation",
+        "recruitment or placement action",
+        "reviewable evidence"
+      ],
+      "avoid": [
+        "dashboard-only narration",
+        "unstated assumptions about auth or privilege"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "product": "webots",
+  "deliverables": [
+    {
+      "kind": "product",
+      "title": "Webots Product Overview",
+      "prompt_file": "videos/prompts/webots-product.md",
+      "duration_seconds": 105,
+      "audience": "Prospects evaluating AARNN demonstrations, demo leads, and embodied-AI stakeholders",
+      "goal": "Show Webots as the browser-only embodiment surface tied directly to AARNN assets and shared commercial-site identity.",
+      "cta": "Open the Webots control surface",
+      "sections": [
+        {"title": "Frictionless embodiment", "focus": "No separate local desktop install or second account"},
+        {"title": "World selection", "focus": "C. elegans, Drosophila, and NAO profiles"},
+        {"title": "AARNN linkage", "focus": "Sensory and actuator mappings grounded in generated assets"},
+        {"title": "Commercial close", "focus": "Why browser launch matters for demonstration velocity"}
+      ],
+      "must_include": [
+        "browser-only launch",
+        "central auth handoff",
+        "world catalog",
+        "AARNN-aligned metadata"
+      ],
+      "avoid": [
+        "presenting Webots as disconnected from AARNN",
+        "implying a desktop-only workflow"
+      ]
+    },
+    {
+      "kind": "training",
+      "title": "Webots Training Walkthrough",
+      "prompt_file": "videos/prompts/webots-training.md",
+      "duration_seconds": 300,
+      "audience": "Enablement teams, demo operators, and internal users",
+      "goal": "Show the launch flow from authenticated site session through world selection and browser runtime handoff.",
+      "cta": "Verify identity, world, and workspace before launch",
+      "sections": [
+        {"title": "Session readiness", "focus": "How the current site login and token state affect launch"},
+        {"title": "World and workspace choice", "focus": "Picking the correct embodiment and workspace label"},
+        {"title": "Launch handoff", "focus": "Submitting the access exchange and opening the browser runtime"},
+        {"title": "Post-launch checks", "focus": "What to verify after the broker redirects the user"}
+      ],
+      "must_include": [
+        "login state",
+        "workspace naming",
+        "launch handoff",
+        "post-launch validation"
+      ],
+      "avoid": [
+        "unclear auth assumptions",
+        "world-selection narration with no practical checks"
+      ]
+    }
+  ]
+}

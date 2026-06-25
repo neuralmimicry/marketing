@@ -1,0 +1,55 @@
+{
+  "product": "refiner",
+  "deliverables": [
+    {
+      "kind": "product",
+      "title": "Refiner Product Overview",
+      "prompt_file": "videos/prompts/refiner-product.md",
+      "duration_seconds": 120,
+      "audience": "Technical buyers, engineering leaders, and delivery managers",
+      "goal": "Explain how Refiner turns fragmented delivery work into one governed operating surface.",
+      "cta": "Request a Refiner briefing",
+      "sections": [
+        {"title": "The delivery problem", "focus": "Fragmented Jira, Confluence, research, and release work"},
+        {"title": "Workflow router", "focus": "Explicit workflow choice across analysis, research, solving, and delivery"},
+        {"title": "Governed service surface", "focus": "Jobs, auth, RAG, MCP, voice, tokens, and metrics"},
+        {"title": "Commercial close", "focus": "Why technical buyers should book a focused briefing"}
+      ],
+      "must_include": [
+        "workflow router",
+        "plan-act-verify-reflect loop",
+        "governed delivery rather than generic automation",
+        "shared service operations"
+      ],
+      "avoid": [
+        "generic AI assistant framing",
+        "claims that humans are removed from the process"
+      ]
+    },
+    {
+      "kind": "training",
+      "title": "Refiner Training Walkthrough",
+      "prompt_file": "videos/prompts/refiner-training.md",
+      "duration_seconds": 420,
+      "audience": "Operators, internal enablement, and implementation teams",
+      "goal": "Show how to navigate Refiner from workflow selection through output review and governance checks.",
+      "cta": "Use the approved workflow pack and stay inside the control surface",
+      "sections": [
+        {"title": "Workflow selection", "focus": "When to use analysis, research, solver, or delivery"},
+        {"title": "Running a job", "focus": "Prompt, context, and output expectations"},
+        {"title": "Review and verification", "focus": "How to inspect generated artefacts and governance evidence"},
+        {"title": "Operational controls", "focus": "Auth, jobs, tokens, voice, and API docs"}
+      ],
+      "must_include": [
+        "real workflow sequence",
+        "verification points",
+        "where governance lives",
+        "what not to automate blindly"
+      ],
+      "avoid": [
+        "pure UI-tour content with no operator judgement",
+        "unsupported claims about one-click autonomy"
+      ]
+    }
+  ]
+}

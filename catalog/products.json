@@ -1,0 +1,215 @@
+{
+  "products": [
+    {
+      "slug": "refiner",
+      "name": "Refiner",
+      "category": "Engineering workflow platform",
+      "marketing_url": "https://neuralmimicry.ai/refiner",
+      "solution_url": "https://neuralmimicry.ai/solutions/governed-delivery",
+      "summary": "Multi-workflow engineering platform for Jira and Confluence analysis, topic research, project solving, delivery orchestration, and governed service operations.",
+      "cta": "Request a Refiner briefing",
+      "audiences": [
+        "Engineering leaders",
+        "Delivery managers",
+        "Platform architects",
+        "Technical buyers"
+      ],
+      "proof_points": [
+        "Explicit workflow router instead of one generic assistant mode",
+        "Plan, act, verify, reflect execution loop",
+        "Shared service surface with jobs, auth, OIDC, RAG, MCP, voice, tokens, and metrics",
+        "Governed delivery stages rather than untracked code generation"
+      ],
+      "dependencies": [
+        "Gail",
+        "Customers",
+        "Billing",
+        "nmstt"
+      ],
+      "icon": "assets/brand/product-icons/nmrefiner.png",
+      "context_files": [
+        "products/refiner/README.md",
+        "videos/manifests/refiner.json",
+        "docs/messaging/platform-positioning.md",
+        "docs/source-map.md"
+      ],
+      "source_refs": [
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refiner.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerAnalysis.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerResearch.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerDelivery.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_refiner_site.yml",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml",
+        "/home/pbisaacs/Developer/neuralmimicry/rag_demo/README.md",
+        "/home/pbisaacs/Developer/neuralmimicry/gail/README.md"
+      ]
+    },
+    {
+      "slug": "continuum",
+      "name": "Continuum",
+      "category": "Sovereign hybrid control plane",
+      "marketing_url": "https://neuralmimicry.ai/continuum",
+      "solution_url": "https://neuralmimicry.ai/solutions/sovereign-operations",
+      "summary": "Sovereign hybrid control plane combining structured CLI, guarded APIs, node recruitment, placement policy, and a Tracey-fed plan-ramp-optimize-repeat loop.",
+      "cta": "Request a Continuum briefing",
+      "audiences": [
+        "Infrastructure leads",
+        "Platform operations teams",
+        "Public-sector IT leaders",
+        "Hybrid-cloud architects"
+      ],
+      "proof_points": [
+        "Connection profiles and guarded request handling",
+        "Always-on adaptive loop informed by Tracey telemetry",
+        "Operator-selectable placement policies",
+        "Recruitment workflows and dashboard/API parity"
+      ],
+      "dependencies": [
+        "Tracey",
+        "swarmhpc",
+        "Continuum tenant workloads"
+      ],
+      "icon": "assets/brand/product-icons/nmcontinuum.png",
+      "context_files": [
+        "products/continuum/README.md",
+        "videos/manifests/continuum.json",
+        "docs/messaging/platform-positioning.md",
+        "docs/source-map.md"
+      ],
+      "source_refs": [
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuum.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumOperations.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumRecruitment.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumSecurity.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/playbook.yml",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md"
+      ]
+    },
+    {
+      "slug": "tracey",
+      "name": "Tracey",
+      "category": "Swarm-native security and resilience runtime",
+      "marketing_url": "https://neuralmimicry.ai/tracey",
+      "solution_url": "https://neuralmimicry.ai/solutions/adaptive-resilience",
+      "summary": "Swarm-native security and resilience runtime for shared event ingestion, quorum-led anomaly assessment, governance-aware action, fleet coordination, and closed-loop status intelligence.",
+      "cta": "Request a Tracey briefing",
+      "audiences": [
+        "Security operations leaders",
+        "Site reliability teams",
+        "Infrastructure resilience owners",
+        "Technical risk buyers"
+      ],
+      "proof_points": [
+        "Shared event model across producers",
+        "Multiple agents plus quorum before action",
+        "Governance posture that changes thresholds and response latitude",
+        "Loader and supervisor models for safer lifecycle handling"
+      ],
+      "dependencies": [
+        "Continuum",
+        "AARNN",
+        "Tracey host agent"
+      ],
+      "icon": "assets/brand/product-icons/nmtracey.png",
+      "context_files": [
+        "products/tracey/README.md",
+        "videos/manifests/tracey.json",
+        "docs/messaging/platform-positioning.md",
+        "docs/source-map.md"
+      ],
+      "source_refs": [
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/tracey.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyRuntime.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyGovernance.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyFleet.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/tracey_site.yml"
+      ]
+    },
+    {
+      "slug": "aarnn",
+      "name": "AARNN",
+      "category": "Neuroscience-led intelligence platform",
+      "marketing_url": "https://neuralmimicry.ai/aarnn-neuroscience",
+      "solution_url": "https://neuralmimicry.ai/solutions/autonomous-r-and-d",
+      "summary": "Neuroscience-led intelligence platform built around timed signal processing, morphology-aware execution, replay-driven adaptation, distributed runtime control, and embodied experimentation.",
+      "cta": "Request an AARNN briefing",
+      "audiences": [
+        "R&D leaders",
+        "Autonomy teams",
+        "Life-sciences innovators",
+        "Advanced technical evaluators"
+      ],
+      "proof_points": [
+        "Timed signal flow rather than static one-pass inference",
+        "Morphology-aware execution and replay-driven adaptation",
+        "Operator-style Model, Experiment, and Dataset surfaces",
+        "Distributed runtime and Webots-linked embodiments"
+      ],
+      "dependencies": [
+        "Continuum",
+        "Webots",
+        "AARNN Rust runtime"
+      ],
+      "icon": "assets/brand/product-icons/nmaarnn.png",
+      "context_files": [
+        "products/aarnn/README.md",
+        "videos/manifests/aarnn.json",
+        "docs/messaging/platform-positioning.md",
+        "docs/source-map.md"
+      ],
+      "source_refs": [
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscience.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceModel.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceMind.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceMedia.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_aarnn_site.yml",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml"
+      ]
+    },
+    {
+      "slug": "webots",
+      "name": "Webots",
+      "category": "Browser-only embodiment launch surface",
+      "marketing_url": "https://neuralmimicry.ai/webots",
+      "solution_url": "https://neuralmimicry.ai/aarnn-neuroscience/media",
+      "summary": "Authenticated browser-only embodiment surface for AARNN users, with central auth handoff, selectable worlds, and generated sensory and actuator alignment metadata.",
+      "cta": "Open Webots control surface",
+      "audiences": [
+        "Demo leads",
+        "Embodied AI researchers",
+        "Prospects evaluating AARNN demonstrations",
+        "Internal enablement teams"
+      ],
+      "proof_points": [
+        "Central auth handoff from the commercial site",
+        "Browser-only world launch without local desktop runtime",
+        "AARNN-aligned sensory and actuator mappings",
+        "World profiles for C. elegans, Drosophila, and NAO"
+      ],
+      "dependencies": [
+        "AARNN",
+        "Customers auth",
+        "Webots broker"
+      ],
+      "icon": null,
+      "context_files": [
+        "products/webots/README.md",
+        "videos/manifests/webots.json",
+        "docs/messaging/platform-positioning.md",
+        "docs/source-map.md"
+      ],
+      "source_refs": [
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/webots.jsx",
+        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/lib/webotsAuth.js",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_webots_site.yml",
+        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml"
+      ]
+    }
+  ]
+}

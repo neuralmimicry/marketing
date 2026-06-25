@@ -11,9 +11,9 @@ NeuralMimicry is an independent open-source initiative building neuromorphic AI,
 This repository is the working home for NeuralMimicry marketing information, reusable messaging, brand assets, media planning, and video-production resources.
 
 It is grounded in three live source trees:
-- commercial website: `/home/pbisaacs/Developer/neuralmimicry.ai-website`
-- deployment inventory and install playbooks: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible`
-- Refiner workflow platform used for marketing drafts and transcripts: `/home/pbisaacs/Developer/neuralmimicry/rag_demo`
+- commercial website: `${NM_LOCAL_REPO_ROOT}.ai-website`
+- deployment inventory and install playbooks: `${SWARMHPC_ROOT}/swarmhpc/ansible`
+- Refiner workflow platform used for marketing drafts and transcripts: `${NM_LOCAL_REPO_ROOT}/rag_demo`
 
 ## Product scope
 

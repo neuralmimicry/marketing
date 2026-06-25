@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  assets:
+    name: Assets (${{ matrix.runner_arch }})
+    runs-on: [self-hosted, Linux, "${{ matrix.runner_arch }}"]
+    strategy:
+      fail-fast: false
+      matrix:
+        runner_arch: [X64, ARM64]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile Python sources
+        run: python -m compileall scripts
+
+      - name: Validate JSON manifests
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+
+          paths = sorted(pathlib.Path("catalog").glob("*.json"))
+          paths += sorted(pathlib.Path("videos/manifests").glob("*.json"))
+          for path in paths:
+              with path.open("r", encoding="utf-8") as handle:
+                  json.load(handle)
+          print(f"validated {len(paths)} JSON manifest(s)")
+          PY

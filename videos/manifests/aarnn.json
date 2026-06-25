@@ -1,0 +1,55 @@
+{
+  "product": "aarnn",
+  "deliverables": [
+    {
+      "kind": "product",
+      "title": "AARNN Product Overview",
+      "prompt_file": "videos/prompts/aarnn-product.md",
+      "duration_seconds": 135,
+      "audience": "Advanced R&D buyers, autonomy teams, and technical evaluators",
+      "goal": "Explain AARNN as a neuroscience-led intelligence platform grounded in timed signal flow, morphology, and embodied runtime paths.",
+      "cta": "Request an AARNN briefing",
+      "sections": [
+        {"title": "Why deeper adaptation is needed", "focus": "When a model wrapper is not enough"},
+        {"title": "Neuroscience implementation", "focus": "Timed signal flow, morphology, replay, and control"},
+        {"title": "Operator surface", "focus": "Model, Experiment, Dataset, runtime, and deployment hooks"},
+        {"title": "Embodied close", "focus": "How Webots-linked demonstrations make the system inspectable"}
+      ],
+      "must_include": [
+        "timed signal flow",
+        "morphology-aware execution",
+        "operator surfaces",
+        "distributed runtime or embodiment"
+      ],
+      "avoid": [
+        "vague neuroscience metaphors",
+        "marketing language detached from implemented surfaces"
+      ]
+    },
+    {
+      "kind": "training",
+      "title": "AARNN Training Walkthrough",
+      "prompt_file": "videos/prompts/aarnn-training.md",
+      "duration_seconds": 540,
+      "audience": "Internal enablement, solution architects, and technical operators",
+      "goal": "Show how to explain, inspect, and navigate AARNN's operator surface and embodiment path.",
+      "cta": "Keep the scientific and operational stories connected",
+      "sections": [
+        {"title": "Model and experiment context", "focus": "How the operator thinks about AARNN resources"},
+        {"title": "Runtime and control", "focus": "What is observable, configurable, and reviewable"},
+        {"title": "Scale and recruitment", "focus": "How Continuum-linked deployment expands the system"},
+        {"title": "Embodiment", "focus": "How AARNN assets connect into Webots worlds"}
+      ],
+      "must_include": [
+        "operator vocabulary",
+        "runtime observability",
+        "distributed deployment story",
+        "embodiment link to Webots"
+      ],
+      "avoid": [
+        "purely theoretical exposition",
+        "claims of finished autonomy with no operator visibility"
+      ]
+    }
+  ]
+}
