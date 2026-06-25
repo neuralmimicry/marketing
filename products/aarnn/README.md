@@ -31,7 +31,7 @@ Show the operator surface, runtime shape, and embodiment path. The viewer should
 
 ## Source of truth
 
-- Website: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscience.jsx`
+- Website: `${NM_LOCAL_REPO_ROOT}.ai-website/src/aarnnNeuroscience.jsx`
 - Supporting pages: `aarnnNeuroscienceModel.jsx`, `aarnnNeuroscienceMind.jsx`, `aarnnNeuroscienceMedia.jsx`
-- Deployment: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_aarnn_site.yml`
-- Architecture note: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md`
+- Deployment: `${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_aarnn_site.yml`
+- Architecture note: `${SWARMHPC_ROOT}/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md`

@@ -31,6 +31,6 @@ Show the path from incoming signal to assessed event, posture decision, closed-l
 
 ## Source of truth
 
-- Website: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/tracey.jsx`
+- Website: `${NM_LOCAL_REPO_ROOT}.ai-website/src/tracey.jsx`
 - Supporting pages: `traceyRuntime.jsx`, `traceyGovernance.jsx`, `traceyFleet.jsx`
-- Deployment: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/tracey_site.yml`
+- Deployment: `${SWARMHPC_ROOT}/swarmhpc/ansible/tracey_site.yml`

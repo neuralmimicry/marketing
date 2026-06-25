@@ -34,15 +34,15 @@
         "docs/source-map.md"
       ],
       "source_refs": [
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refiner.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerAnalysis.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerResearch.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refinerDelivery.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_refiner_site.yml",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml",
-        "/home/pbisaacs/Developer/neuralmimicry/rag_demo/README.md",
-        "/home/pbisaacs/Developer/neuralmimicry/gail/README.md"
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/refiner.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/refinerAnalysis.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/refinerResearch.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/refinerDelivery.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/seo/routeMeta.js",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_refiner_site.yml",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml",
+        "${NM_LOCAL_REPO_ROOT}/rag_demo/README.md",
+        "${NM_LOCAL_REPO_ROOT}/gail/README.md"
       ]
     },
     {
@@ -78,14 +78,14 @@
         "docs/source-map.md"
       ],
       "source_refs": [
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuum.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumOperations.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumRecruitment.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuumSecurity.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/playbook.yml",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md"
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/continuum.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/continuumOperations.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/continuumRecruitment.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/continuumSecurity.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/seo/routeMeta.js",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/playbook.yml",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md"
       ]
     },
     {
@@ -121,12 +121,12 @@
         "docs/source-map.md"
       ],
       "source_refs": [
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/tracey.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyRuntime.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyGovernance.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/traceyFleet.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/tracey_site.yml"
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/tracey.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/traceyRuntime.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/traceyGovernance.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/traceyFleet.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/seo/routeMeta.js",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/tracey_site.yml"
       ]
     },
     {
@@ -162,14 +162,14 @@
         "docs/source-map.md"
       ],
       "source_refs": [
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscience.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceModel.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceMind.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/aarnnNeuroscienceMedia.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/seo/routeMeta.js",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_aarnn_site.yml",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml"
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/aarnnNeuroscience.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/aarnnNeuroscienceModel.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/aarnnNeuroscienceMind.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/aarnnNeuroscienceMedia.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/seo/routeMeta.js",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_aarnn_site.yml",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml"
       ]
     },
     {
@@ -205,10 +205,10 @@
         "docs/source-map.md"
       ],
       "source_refs": [
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/webots.jsx",
-        "/home/pbisaacs/Developer/neuralmimicry.ai-website/src/lib/webotsAuth.js",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_webots_site.yml",
-        "/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml"
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/webots.jsx",
+        "${NM_LOCAL_REPO_ROOT}.ai-website/src/lib/webotsAuth.js",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_webots_site.yml",
+        "${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml"
       ]
     }
   ]

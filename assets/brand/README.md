@@ -1,6 +1,6 @@
 # Brand Assets
 
-This folder contains product marks copied from the commercial website public asset set at `/home/pbisaacs/Developer/neuralmimicry.ai-website/public`.
+This folder contains product marks copied from the commercial website public asset set at `${NM_LOCAL_REPO_ROOT}.ai-website/public`.
 
 Included today:
 - `nmrefiner.png`

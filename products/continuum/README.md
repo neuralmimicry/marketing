@@ -31,8 +31,8 @@ Show an operator journey: connection setup, adaptive loop review, recruitment or
 
 ## Source of truth
 
-- Website: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/continuum.jsx`
+- Website: `${NM_LOCAL_REPO_ROOT}.ai-website/src/continuum.jsx`
 - Supporting pages: `continuumOperations.jsx`, `continuumRecruitment.jsx`, `continuumSecurity.jsx`
-- Deployment tree: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible`
-- Shared host/runtime settings: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml`
-- Architecture note: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md`
+- Deployment tree: `${SWARMHPC_ROOT}/swarmhpc/ansible`
+- Shared host/runtime settings: `${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml`
+- Architecture note: `${SWARMHPC_ROOT}/swarmhpc/ansible/CONTINUUM_TENANT_AARNN_ARCHITECTURE.md`

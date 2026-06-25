@@ -30,7 +30,7 @@ Show sign-in state, world selection, workspace naming, launch handoff, and what 
 
 ## Source of truth
 
-- Website: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/webots.jsx`
-- Auth helpers: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/lib/webotsAuth.js`
-- Deployment: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_webots_site.yml`
-- Host/runtime settings: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml`
+- Website: `${NM_LOCAL_REPO_ROOT}.ai-website/src/webots.jsx`
+- Auth helpers: `${NM_LOCAL_REPO_ROOT}.ai-website/src/lib/webotsAuth.js`
+- Deployment: `${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_webots_site.yml`
+- Host/runtime settings: `${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml`

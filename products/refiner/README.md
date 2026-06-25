@@ -33,9 +33,9 @@ Show a real sequence: choose workflow, submit or configure the run, inspect outp
 
 ## Source of truth
 
-- Website: `/home/pbisaacs/Developer/neuralmimicry.ai-website/src/refiner.jsx`
+- Website: `${NM_LOCAL_REPO_ROOT}.ai-website/src/refiner.jsx`
 - Supporting pages: `refinerAnalysis.jsx`, `refinerResearch.jsx`, `refinerDelivery.jsx`
-- Deployment: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/continuum_tenant_refiner_site.yml`
-- Host/runtime settings: `/home/pbisaacs/Developer/swarmhpc/swarmhpc/ansible/host_vars/spirit.yml`
-- Runtime repo and job/control-plane surface: `/home/pbisaacs/Developer/neuralmimicry/rag_demo`
-- Internal orchestration dependency behind Refiner: `/home/pbisaacs/Developer/neuralmimicry/gail`
+- Deployment: `${SWARMHPC_ROOT}/swarmhpc/ansible/continuum_tenant_refiner_site.yml`
+- Host/runtime settings: `${SWARMHPC_ROOT}/swarmhpc/ansible/host_vars/spirit.yml`
+- Runtime repo and job/control-plane surface: `${NM_LOCAL_REPO_ROOT}/rag_demo`
+- Internal orchestration dependency behind Refiner: `${NM_LOCAL_REPO_ROOT}/gail`
